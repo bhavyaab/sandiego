@@ -3,24 +3,77 @@
 <head>
     <title >San Diego</title>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <style>
+    .button {
+              background-color:hsla(240,100%,50%,0.1);
+              border: none;
+              color: white;
+              padding: 32px 16px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 50px;
+              margin: 4px 2px;
+              cursor: pointer;
+              border-radius: 12px;
+              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            }
+      .button:active {
+              transform: translateY(4px);
+            }
+
+    .button1:hover {
+            background: url('http://besttropicalbeachvacations.com/wp-content/uploads/2013/06/beaches-in-san-diego-pacific-ocean.jpg');
+            background-size: cover;
+
+          }
+
+    .button1 {
+
+              width: 35%;
+              margin-top: 150px;
+              margin-left: 20%;
+
+            }
+    .button2 {
+
+              margin-top: 10px;
+              width: 35%;
+              }
+    .button2:hover {
+              background: url('http://tonygillilan.com/blog/wp-content/uploads/2014/02/San-Diego-Zoo-Safari-Park-2bmvgcy-1-1024x682.jpg');
+              background-size: cover;
+              }
+    .button3 {
+
+              width: 35%;
+              margin-top: 10px;
+              margin-left: 20%;
+              }
+    .button3:hover {
+              background: url('https://activerain-store.s3.amazonaws.com/image_store/uploads/1/2/9/2/2/ar135430778022921.jpg');
+              background-size: cover;
+              }
+    .button4 {
+
+              width: 35%;
+              margin-top: 10px;
+              }
+    .button4:hover {
+              background: url('http://www.visittheusa.ca/~/media/a5962c6277294ce18e585bfec3d189b1/06%20%209%201046x380.jpg?w=1046&h=380&bg=ffffff');
+              background-size: cover;
+              }
+    </style>
 </head>
 
 <body>
 	<h1>San Diego</h1>
-		<!-- <img src="http://www.paradisepoint.com/images/masthead/about-san-diego.jpg" align="fit"/> -->
 		<h2>Fun Things to do</h2>
-	<table>
-		<tr>
-		<td>
-				<div>
-					<img src="http://missionbeachonline.com/images/mission-beach-park-san-diego.jpg", z-index: -1/>
-					<li><span>Beautiful Beaches</span></li>
-				</div>
-		</td>
-		<td>Animal Exhibitions</td>
-		<td>Museums</td>
-		<td>Dining & Shopping</td>
-	</tr>
-	</table>
+
+				<button class="button button1" onclick="alert('Hello world!')">Beautyfull Beches</button>
+        <button class="button button2" onclick="alert('Hello world!')">Animal Exhibitions</button>
+        <button class="button button3" onclick="alert('Hello world!')">Discover Museums</button>
+        <button class="button button4" onclick="alert('Hello world!')">Dining & Shopping</button>
+
 </body>
 </html>
