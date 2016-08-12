@@ -1,0 +1,123 @@
+a:link{
+    color:#008B45;
+    }
+a:hover{
+    color: #00FF00;
+    }
+a:visited{
+    color:#EE9A00;
+    }
+td{
+    height:150px;
+    width: 250px;
+    border:1px dashed blue;
+    text-align: center;
+    font-family: sans-serif;
+  }
+img{
+    height: 150px;
+    width: 200px;
+    z-index: -1;
+    }
+div{
+    height:50px;
+    width:120px;
+    border-color: #6495ED;
+    background-color:#BCD2EE;
+    border-style: dashed;
+    border-width:2px;
+    }
+table{
+      /*border:1px solid black;*/
+    position: absolute;
+    top: auto;
+    right:200px;
+    left: 100px;
+    border: 3px solid #73AD21;
+        }
+
+body {
+      background: url('http://www.paradisepoint.com/images/masthead/about-san-diego.jpg');
+      background-size: cover;
+    	}
+li{
+  	text-align: center;
+  		}
+h1{
+  text-align: center;
+  font-size:100px;
+}
+h2{
+  text-align:center;
+}
+span{
+    text-align: center;
+    font-size: 18px;
+}
+.button {
+          background-color:hsla(360, 100%, 100%, 0.5);
+          border: none;
+          color: white;
+          padding: 32px 16px;
+          text-align: center;
+          text-decoration:none;
+          color: black;
+          align-items:flex-end;
+          display: inline-block;
+          font-size: 40px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 12px;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+.button:active {
+          transform: translateY(4px);
+        }
+.button1:hover {
+        background: url('http://besttropicalbeachvacations.com/wp-content/uploads/2013/06/beaches-in-san-diego-pacific-ocean.jpg');
+        background-size: cover;
+        border-radius: 25px;
+        padding: 40px 32px;
+        font-size: 50px;
+      }
+
+.button1 {
+          width: 35%;
+          margin-top: 150px;
+          margin-left: 20%;
+        }
+.button2 {
+          margin-top: 10px;
+          width: 35%;
+          }
+.button2:hover {
+          background: url('http://tonygillilan.com/blog/wp-content/uploads/2014/02/San-Diego-Zoo-Safari-Park-2bmvgcy-1-1024x682.jpg');
+          background-size: cover;
+          border-radius: 25px;
+          padding: 40px 32px;
+          font-size: 50px;
+          }
+.button3 {
+          width: 35%;
+          margin-top: 10px;
+          margin-left: 20%;
+          }
+.button3:hover {
+          background: url('http://www.qbgardens.com/wp-content/uploads/2015/11/armenia_city_yerevan_museum_area_59045_1920x1080.jpg');
+          background-size: cover;
+          border-radius: 25px;
+          padding: 40px 32px;
+          font-size: 50px;
+          }
+.button4 {
+          width: 35%;
+          margin-top: 10px;
+          }
+.button4:hover {
+          background: url('http://www.next2eden.net/admincms/lib/fckeditor/uploads/image/dreamstime_1793312%20restaurant.jpg');
+          background-size: cover;
+          border-radius: 25px;
+          padding: 40px 32px;
+          font-size: 50px;
+
+          }
